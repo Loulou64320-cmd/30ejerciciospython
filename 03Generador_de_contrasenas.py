@@ -16,4 +16,6 @@ print("\n--- GENERA CONTRASEÑA ALEATORIA ---")
 longitud_de_contraseña = int(input("\n\tIngrese la longitud para su contraseña : "))
 
 contraseña = generar_contraseña(longitud_de_contraseña)
+asteriscos ='*' * len(contraseña)
 print(f"\tContraseña generada : {contraseña}")
+print(f"\tMuestra asteriscos  : {asteriscos}")
