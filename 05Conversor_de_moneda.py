@@ -32,7 +32,7 @@ while True:
     print('3.- De sol a Yuan')
     print('4.- Salir del conversor')
 
-    opcion = float(input('\tIngrese su opcion y presione ENTER : '))
+    opcion = int(input('\tIngrese su opcion y presione ENTER : '))
 
     match opcion:
         case 1:
@@ -47,7 +47,7 @@ while True:
         case _:
             print('\tIngrese una opcion valida')
 
-    moneda = int(input('\t\tIngrese su moneda a cambiar :'))
+    moneda = float(input('\t\tIngrese su moneda a cambiar :'))
 
     match opcion:
         case 1:
