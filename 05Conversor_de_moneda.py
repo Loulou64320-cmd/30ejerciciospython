@@ -2,11 +2,13 @@ import os
 
 os.system('cls')
 
-# Definir funciones
+# Definir Constates
 
 precio_dolar = 0.27
 precio_euro = 0.26
 precio_yoan = 1.95
+
+# Definir Funciones
 
 
 def sol_a_dolar(moneda):
