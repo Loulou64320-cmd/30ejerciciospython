@@ -1,3 +1,5 @@
+import os
+
 # Lista para almacenar los contactos
 agenda = []
 
@@ -51,6 +53,7 @@ def eliminar_contacto(nombre):
 
 
 def menu():
+    os.system('cls')
     while True:
         print("\nAgenda de Contactos")
         print("1. Agregar Contacto")
