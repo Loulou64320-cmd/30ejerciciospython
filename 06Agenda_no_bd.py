@@ -61,6 +61,7 @@ def menu():
         print("3. Buscar Contacto")
         print("4. Eliminar Contacto")
         print("5. Salir")
+        
         opcion = input("Seleccione una opción: ")
 
         if opcion == '1':
